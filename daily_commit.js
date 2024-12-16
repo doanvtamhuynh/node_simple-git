@@ -19,7 +19,7 @@ const makeCommits = async () => {
     const currentDate = moment();
 
     // Số commit ngẫu nhiên mỗi ngày
-    const commitsPerDay = random.int(2, 10);
+    const commitsPerDay = random.int(3, 20);
     for (let i = 0; i < commitsPerDay; i++) {
         // Thời gian commit ngẫu nhiên trong ngày
         const randomHours = random.int(0, 23);
